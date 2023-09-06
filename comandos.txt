@@ -1,0 +1,29 @@
+ 482  git init
+  483  git branch -m master main
+  484  git config user.name "Ivangitcut"
+  485  git config user.email "gunstriptor@gmail.com"
+  486  git remote add origin https://github.com/Ivangitcut/16082023IvanGutierrez.git
+  487  git status
+  488  git pull origin main
+  489  ls
+  490  git chekout feature
+  491  git checkout feature
+  492  git status
+  493  mv index.html resumenSoftware.txt
+  494  mv main.js resumenHardware.txt
+  495  git status
+  496  git add resumenSoftware.txt
+  497  git add resumenHardware.txt
+  498  git push origin main
+  499  git status
+  500  git commit -m "Modificados"
+  501  git status
+  502  git rm index.html
+  503  git rm main.js
+  504  git commit -m "Modificados 2"
+  505  git status
+  506  history
+
+
+Se me acabo el tiempo en Killercoda y no pude copiar los comandos anteriores, no supe que hacer para modificar los txt desde la terminal
+
