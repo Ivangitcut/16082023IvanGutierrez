@@ -1,0 +1,47 @@
+ubuntu $ history
+    1  apt-get update
+    2  halt
+    3  git init
+    4  git clone https://github.com/Ivangitcut/16082023IvanGutierrez.git
+    5  cd 16082023IvanGutierrez/
+    6  touch main.js
+    7  touch index.html
+    8  git add index.html 
+    9  git add main.js 
+   10  git status
+   11  git commit -m "commit1ivang"
+   12  git config --global user.email "gunstriptor@gmail.com"
+   13  git config --global user.name "Ivangitcut"
+   14  git commit -m "commit1ivang"
+   15  git push origin main
+   16  git branch feature
+   17  git checkout feature
+   18  ls
+   19  mkdir Hardware
+   20  mkdir Software
+   21  mkdir SeguridadInformatica
+   22  cd Hardware/
+   23  touch resumen.txt
+   24  cd ..
+   25  cd SeguridadInformatica/
+   26  touch resumen.txt
+   27  cd ..
+   28  cd Software/
+   29  touch resumen.txt
+   30  cd ..
+   31  git add *
+   32  git status
+   33  git commit "commit2ivang"
+   34  git commit -m "commit2ivang"
+   35  git push origin feature
+   36  git checkout main
+   37  ls
+   38  mv main.js resumenHardware.txt
+   39  mv index.html resumenSoftware.txt
+   40  git rm main.js
+   41  git rm index.html
+   42  git add *
+   43  git commit "commit3ivang"
+   44  git commit -m "commit3ivang"
+   45  git push origin main
+   46  history
